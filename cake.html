@@ -1,0 +1,233 @@
+<html>
+<head>  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             <style>
+
+               *{
+                 margin: 0px;
+                 padding: 0px;
+                 box-sizing: border-box;
+               }
+               body{
+                 font-size: 20px;
+                 overflow-x: hidden;
+                 background-color: #DA70D6;
+               }
+               header{
+                 background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("cake2.jpg");
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+                 height: 100vh;
+               }
+               .clearfix{
+                 content: ".";
+                 visibility: hidden;
+                 display: block;
+                 height: 0px;
+                 clear: both;
+               }
+
+               .row{
+                 max-width: 1390px;
+                 margin:0 auto;
+               }
+               .logo{
+                 height: 120px;
+                 width: auto;
+
+                 margin-top: 20px;
+
+               }
+               .main-nav{
+                 float: right;
+                 margin-top: 60px;
+               }
+               .main-nav li{
+                 display: inline-block;
+                 list-style:none;
+                 margin-left: 40px;
+               }
+
+               .main-nav li a{
+                 padding: 5px 0px;
+                 color: #fff;
+                 text-decoration: none;
+                 text-transform: uppercase;
+                 font-size: 90%;
+                 font--weight: 100;
+               }
+               .main-nav li a:hover{
+                 border-bottom: 2px solid #bf55ec;
+               }
+
+               .main-content-header{
+                 width: 1180px;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%,-50%);
+                 color: #fff;
+                 text-transform: uppercase;
+                 font-size: 20px;
+                 font-weight: lighter;
+               }
+
+               .btn{
+                 display: inline-block;
+                 padding: 10px 30px;
+                 font-weight: lighter;
+                 text-decoration: none;
+                 text-transform: upppercase;
+                 border-radius: 200px;
+                 transition: background-color 0.2s, border 0.2s,color 0.2s;
+                 margin: 40px;
+               }
+               .innerdiv, .innerdiv1,.innerdiv2{
+                 width:350px;
+                 height:250px;
+                 padding:80px;
+                 margin:80px;
+                 margin-bottom: 0px;
+
+               }
+               .inner{
+                 height: 70px;
+                 margin-top: 80px;
+                 background-color: black;
+                 color: white;
+                 font-weight: lighter;
+                 font-family: ink-free;
+               }
+               .innerdiv3{
+                 width:350px;
+                 height:50px;
+                 padding:20px;
+                 margin-top: 0px;
+                 margin-left: 80px;
+                text-align: center;
+                 font-family: ink free;
+                 font-weight: bold;
+
+               }
+               .btn-full{
+                 background-color: transparent;
+                 color: #bf55ec;
+                 margin-right: 15px;
+                 border: 1px solid red;
+               }
+               .btn-full:hover{
+                 background-color: #fff;
+               }
+               .btn-nav{
+                 background-color: transparent;
+                 color: #fff;
+                 margin-right: 15px;
+                 border: 1px solid #fff;
+               }
+               .btn-nav:hover{
+                 background-color: #bf55ec;
+               }
+               h1{
+                 font-weight: lighter;
+                 font-family: ink free;
+                 font-size: 240%;
+               }
+               .co{
+                 animation: cojoyful 1s infinite;
+               }
+
+               .downh{
+                 text-align: center;
+                 font-size: 50px;
+                 font-weight: bolder;
+
+               }
+               .inner input[type= "text"]{
+               border:0;
+               background: none;
+               color: white;
+              width:1200px;
+              margin: 20px auto;
+            }
+               .innerdiv {
+	background-image: url("cake3.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.innerdiv1 {
+background-image: url("cake4.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.innerdiv2 {
+background-image: url("cake5.jpg");
+
+background-position:center;
+background-repeat:no-repeat;
+}
+.innerdiv3:hover{
+  background-color: black;
+  color: white;
+}
+               @keyframes cojoyful {
+                 0%{color: red;}
+                      25%{color: pink;}
+                           50%{color: white;}
+                                100%{color: #bf55ec;}
+               }
+
+
+
+             </style>
+</head>
+    <body>
+
+      <header>
+        <nav>
+          <div class="row">
+            <img src="cakelogo.webp" class="logo">
+
+      <ul class="main-nav animated slideInDown" id="check-class">
+        <li><a href="#">cake delivery</a></li>
+        <li><a href="#">how to order</a></li>
+        <li><a href="#">check more</a></li>
+        <li><a href="#">sign up</a></li>
+      </ul>
+
+        </div>
+        </nav>
+
+        <div class="main-content-header">
+          <h1> welcome to <span class="co"> joyful cakes</span>.<br>
+            house of cake lover yipee. </h1>
+            <a href="#" class="btn btn-full">click to orders</a>
+            <a href="#" class="btn btn-nav">show me more</a>
+            </div>
+
+              </header>
+
+              <h1 class="downh">some special offers</h1>
+
+            <table>
+              <tr>
+                <td><div class="innerdiv"></div></td>
+                <td><div class="innerdiv1"></div></td>
+                <td><div class="innerdiv2"></div></td>
+              </tr>
+              <tr>
+                <td><div class="innerdiv3">Red Velvet - 50%off</div></td>
+                <td><div class="innerdiv3">Choco Trufful - 45%off</div></td>
+                <td><div class="innerdiv3">Violet rose -  40%off</div></td>
+              </tr>
+            </table>
+            <div class="inner">
+              <i>share your feedback</i> <input type="text">
+            </div>
+
+
+
+            </body>
+            </html>
